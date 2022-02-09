@@ -16,7 +16,7 @@ arrow() {
 echo "Installing taglib" | arrow
 echo "Downloading package: $PACKAGE_PATH" | indent
 
-PACKAGE_PATH="http://s3.amazonaws.com/purple-cloud-binaries/heroku/taglib.tar.gz"
+PACKAGE_PATH="https://taglib.org/releases/taglib-1.12.tar.gz"
 LOCATION=$BUILD_DIR/vendor/taglib
 
 mkdir -p $LOCATION
