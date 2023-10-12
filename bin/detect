@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# this pack is valid for all apps
-echo "taglib"
-exit 0
